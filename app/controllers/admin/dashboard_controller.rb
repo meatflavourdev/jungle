@@ -2,7 +2,8 @@ class Admin::DashboardController < ApplicationController
   before_filter :authentication_check
 
   def show
-    puts "This string"
+    @products = Product.all
+    @category = Category.all
   end
 
    private
