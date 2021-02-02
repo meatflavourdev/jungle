@@ -57,6 +57,11 @@
         <% end %>
         <% if current_user %>
         <li>
+          <h5>
+            <%= current_user.name %>
+          </h5>
+        </li>
+        <li>
           <%= link_to "Logout", '/logout' %>
         </li>
         <% end %>
