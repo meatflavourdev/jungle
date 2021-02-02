@@ -57,3 +57,5 @@ bower.json
 .byebug_history
 
 .dccache
+
+.vscode/settings.json
