@@ -2,6 +2,8 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+![localhost_3000_](./localhost_3000_.png)
+
 
 ## Setup
 
